@@ -16,8 +16,9 @@ read -i "y" -e yn
 
 if [ "$yn" = y ]; then
   git push origin "$branch"
+  echo "Success!"
 else
-  echo "Strata!"
+  echo "Failed to push to GitHub!"
 fi
 
 }
