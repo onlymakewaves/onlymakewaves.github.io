@@ -4,13 +4,14 @@ function addcommitpush () {
 
 current=$(git branch | grep "*" | cut -b 3-)
 
-message=\'"$@"\'
-git add -A && git commit -a -m "$message"
+echo "Enter commit message: "	
+read msg
+git add -A && git commit -a -m "$msg"
 
-echo "Where to push?"
+echo "Press enter to push to this branch: "
 read -i "$current" -e branch
 
-echo "You sure you wanna push? (y/n)"
+echo "Are you sure you want to push? (y/n)"
 read -i "y" -e yn
 
 if [ "$yn" = y ]; then
