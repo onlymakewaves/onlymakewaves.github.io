@@ -216,6 +216,12 @@
 									<span class="category">USD ($1 or more)</span>
 								</div>
 							</a>
+							<div class="d-flex justify-content-center mt-3">
+								<a href="https://bandcamp.com" target="_blank"
+									class="btn btn-black btn-block me-4 icon-bandcamp">&nbsp;Buy</a>
+								<a href="https://spotify.com" target="_blank"
+									class="btn btn-black btn-block me-4 icon-spotify">&nbsp;Stream</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -332,7 +338,8 @@
 						<div>
 							<h3>Playlists</h3>
 							<p>We listen to music, categorize it, and then spread it to the world
-								through our different Spotify playlists so you don't have to. Powered by Spotify&#8482;.<br />Coming soon.
+								through our different Spotify playlists so you don't have to. Powered by
+								Spotify&#8482;.<br />Coming soon.
 							</p>
 							<!-- <p><a href="#" class="more">Learn more</a></p> -->
 						</div>
@@ -368,7 +375,8 @@
 						<div class="unit-4-icon me-4"><span class="feather-shopping-bag"></span></div>
 						<div>
 							<h3>Shop</h3>
-							<p>Show your support by purchasing our latest high quality merchandise.<br />Coming soon.</p>
+							<p>Show your support by purchasing our latest high quality merchandise.<br />Coming soon.
+							</p>
 							<!-- <p><a href="blog.html" target="_blank" class="more">Learn more</a></p> -->
 						</div>
 					</div>
@@ -569,6 +577,33 @@
 	<script src="js/glightbox.min.js"></script>
 	<script src="js/rellax.min.js"></script>
 	<script src="js/custom.js"></script>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      $('.form-contact').submit(function(e) {
+        e.preventDefault();
+        var name = $('input[placeholder="Your name"]').val();
+        var email = $('input[placeholder="Your email"]').val();
+
+        $.ajax({
+          type: 'POST',
+          url: 'http://eepurl.com/iil3rr',
+          data: {
+            name: name,
+            email: email
+          },
+          success: function() {
+            alert('Subscribed successfully!');
+          },
+          error: function() {
+            alert('An error occurred, please try again later.');
+          }
+        });
+      });
+    });
+  </script>
 </body>
 
 </html>
