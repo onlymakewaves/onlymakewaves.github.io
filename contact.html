@@ -113,7 +113,18 @@
 		</div>
 	</nav>
 
+	<style>
+		.typewriter::after {
+			content: "_";
+			animation: blinker 0.8s linear infinite;
+		}
 
+		@keyframes blinker {
+			50% {
+				opacity: 0;
+			}
+		}
+	</style>
 	<div class="hero v-h-full overlay">
 		<div class="img-bg rellax">
 			<img src="images/hero-2-min.jpg" alt="Image" class="img-fluid">
@@ -122,7 +133,9 @@
 			<div class="row align-items-center v-h-full">
 
 				<div class="col-lg-7 col-xxl-6 mx-auto text-center">
-					<h1 class="heading-2 text-white mb-3" data-aos="fade-up">Contact Us</h1>
+					<h1 class="heading-2 text-white mb-5" data-aos="fade-up">
+						<span class="typewriter">Contact Us</span>
+					</h1>
 					<p data-aos="fade-up" data-aos-delay="200" class="text-white lead mb-4">Need to talk with us?
 						Contact us below.</p>
 					<!-- <p data-aos="fade-up" data-aos-delay="300"><a href="#"
@@ -293,6 +306,31 @@
 	<script src="js/glightbox.min.js"></script>
 	<script src="js/rellax.min.js"></script>
 	<script src="js/custom.js"></script>
+	<script>
+		let text = [
+			"Contact Us"
+		];
+		let counter = 0;
+		let index = 0;
+		let currentText = "";
+		let letter = "";
+
+		(function type() {
+			if (counter === text.length) {
+				counter = 0;
+			}
+			currentText = text[counter];
+			letter = currentText.slice(0, ++index);
+			document.querySelector(".typewriter").textContent = letter;
+			if (letter.length === currentText.length) {
+				counter++;
+				index = 0;
+				setTimeout(type, 10000);
+			} else {
+				setTimeout(type, 100);
+			}
+		}());
+	</script>
 </body>
 
 </html>
