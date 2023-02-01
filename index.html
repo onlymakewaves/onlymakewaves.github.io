@@ -577,33 +577,6 @@
 	<script src="js/glightbox.min.js"></script>
 	<script src="js/rellax.min.js"></script>
 	<script src="js/custom.js"></script>
-
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-  <script>
-    $(document).ready(function() {
-      $('.form-contact').submit(function(e) {
-        e.preventDefault();
-        var name = $('input[placeholder="Your name"]').val();
-        var email = $('input[placeholder="Your email"]').val();
-
-        $.ajax({
-          type: 'POST',
-          url: 'http://eepurl.com/iil3rr',
-          data: {
-            name: name,
-            email: email
-          },
-          success: function() {
-            alert('Subscribed successfully!');
-          },
-          error: function() {
-            alert('An error occurred, please try again later.');
-          }
-        });
-      });
-    });
-  </script>
 </body>
 
 </html>
