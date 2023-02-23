@@ -9850,3 +9850,8 @@ a {
       .site-footer .social li a:hover {
         background: #000;
         color: #fff; }
+.svg{
+
+  display:inline-flex;
+  
+}
