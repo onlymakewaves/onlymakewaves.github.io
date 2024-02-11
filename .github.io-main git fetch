@@ -1,0 +1,244 @@
+[33m21e59a7[m[33m ([m[1;36mHEAD -> [m[1;32mnakiso-dev[m[33m, [m[1;31morigin/nakiso-dev[m[33m)[m Created a new page SUNSETS
+[33m50fc1f5[m [ADD] Test branch
+[33mdd25aa6[m[33m ([m[1;32mmain[m[33m)[m Merge pull request #2 from onlymakewaves/wandile-dev
+[33mcc71844[m [ADD] More releases text on home page
+[33m008e04a[m [FIX] Msc
+[33m4651c3e[m [FIX] Untracked files
+[33m285140f[m modified themendists.html and added player in home page
+[33mee9863c[m updated nakiso.html playlist artworks
+[33m64dbad8[m Updated Ethereal Dreams..waiting for link, Updated Playlist Artworks
+[33m6b9a18f[m Added Ethereal Dreams in Homepage, wating for link
+[33m7e7a2b0[m Testing Homepage Hero
+[33me1d0e98[m Modified css section contact color to white
+[33m0035851[m Updated images on index.html Playlist Section
+[33m021d4ec[m [FIX] Misc
+[33md64add2[m [FIX] Broken links
+[33mfc36fa1[m  [FIX] File abs location
+[33m8b315ab[m  [FIX] File abs location
+[33mbd6c239[m [FIX] File abs location
+[33mda83a6b[m [FIX] File abs location
+[33m6d6d679[m [FIX] File abs location
+[33m9fc3647[m [FIX] File abs location
+[33me305698[m [FIX] File abs location
+[33ma75b29e[m [FIX] File abs location
+[33m365a053[m [FIX] File abs location
+[33mb6f55eb[m [RMV] Removed pages from root dir
+[33m56f2649[m [ADD] Project file structure refactor
+[33m7a0c793[m [UPD] Artists pages
+[33m93914a1[m [UPD] Big home page update
+[33mc8f596f[m [TST] Testing GitHub and Slack Integration
+[33m4e7abec[m [ADD] Testing GitHub and Slack Integration
+[33me1ed120[m [FIX] JavaScript code refactor
+[33m2a5e600[m Merge DixMerge branch 'main' of https://github.com/onlymakewaves/onlymakewaves.github.io into main
+[33macf2bbe[m Updated Image on Music - Section
+[33m1fb7267[m Updated track images on index
+[33mb3b6ef3[m [ADD] Added new The Catalogue playlist in home
+[33m02388ed[m [ADD] Browse releases anchor
+[33m8eaaa3a[m [UPD] Catalogue page
+[33md85239c[m [UPD] New releases section
+[33m779d3a9[m [UPD] Playlists
+[33m592bd50[m [FIX] RPC Error
+[33m84386f0[m [ADD] New env
+[33m6fb9502[m Added Chords of Life
+[33m708e765[m  Updated Links  and Images
+[33ma0762ba[m Updated Homepage
+[33me087afa[m [FIX] Master fix
+[33m17b9c91[m [FIX] Hot fix
+[33mc44bde0[m [FIX] Fixed releases page
+[33m80bb9ee[m [FIX] Fixed bug w/ glightbox.min.css
+[33mb5e4cf2[m [FIX] Hot fix
+[33m3fbb34b[m [FIX] Hot fix
+[33m415f851[m [FIX] Hot fix
+[33m54db700[m [FIX] Hot fix
+[33m7d2bbe2[m [ADD] Playlist and Radio
+[33m92eeaa1[m Contact page deleted due to conversion of pages from Contact to Mission
+[33mc0974bd[m Converted Contacts Page to Mission, Embeded Bandcamp Link and adjusted glightbox.css to fit embed
+[33md26e791[m [FIX] Removed about link
+[33mb0debdf[m [RMV] Removed team link
+[33m08a73c6[m [FIX] Removed team link
+[33mfe7480c[m [FIX] Hot fix
+[33m63fb4df[m [RMV] Removed team link
+[33m5f8386b[m [RMV] Removed about link
+[33m80fa544[m Modified Nocktik Pic
+[33m52549de[m [FIX] Hot fix
+[33md7618c4[m [FIX] Hot fix
+[33m2438bf7[m [FIX] Hot fix
+[33m344713a[m [FIX] Hot fix
+[33m7271fdc[m [ADD] Team and mission links
+[33m91a87c0[m [FIX] Hot fix
+[33md0390b9[m [FIX] Hot fix
+[33m2cbc502[m [FIX] Hot fix
+[33ma9d2cb0[m [ADD] Added new link to mission statement
+[33mb9a412c[m [FIX] Hot fix
+[33m5ff5626[m [FIX] Nakiso page header
+[33mb9027b0[m [FIX] Typerwritter str arr.
+[33m5cb2b8e[m [FIX] Fixed comment bug!
+[33m8663fac[m [RMV] Removed premium sect. from landing page.
+[33m0adc11c[m Updated home typerwritter text.
+[33mfb647ff[m Modified About, Nocktik Social links
+[33mf7654a8[m Removed hosted by git hub in footer
+[33m266b7df[m Removed Hosted by github in footer
+[33mabb62eb[m Updated Image on About us
+[33m9631845[m Modified Discography
+[33m7786444[m Added artwork for Feel Haven
+[33m0696dd1[m Modified .gslide-external
+[33ma643c73[m Updated release
+[33m2ba85d8[m UPDATED ARTWORK
+[33m25a4712[m ADDED HERO IMAGE
+[33mbcb0546[m Added hero for Artist
+[33m3f24f8b[m Justify text in about page
+[33m9cdac10[m updated artwork
+[33mab8d469[m Add gif for Ha Long bay
+[33mb3ddc31[m Reduced bio to 5 lines
+[33m21b1e11[m Align text in header
+[33m71464ee[m Modified Hero Image
+[33mb107174[m MODIFIED HERO
+[33m656acc3[m New Hero Image
+[33m3bf122e[m Added a hero
+[33md3b3017[m RMV
+[33m527af4d[m [RMV] Contact
+[33m2cc6762[m Delete My Video1.gif
+[33m45413f7[m Modify Index.html and added images on second container
+[33mb025290[m Identifier
+[33m8be436c[m Modify
+[33ma5c1a4d[m Updated hero image
+[33m9d9e77c[m [ADD] File
+[33mdc2dfb9[m [ADD] Images
+[33m3f92e06[m [ADD] And Mixes
+[33mad1e5ab[m Merge branch 'main' of https://github.com/onlymakewaves/onlymakewaves.github.io into main
+[33m0d60f47[m[33m ([m[1;32mstatus[m[33m)[m Modify Discography/commented Spotify embed
+[33ma65b7c5[m Modify Discography/commented Spotify embed
+[33m550fbbe[m /merge conflict/ modified MIXES and footer social links
+[33m527dfae[m Modify MIXES section
+[33m0955730[m Add greyscale effect and names of MIXES
+[33mb023052[m Add social links to footer
+[33m33d748b[m [ADD] Link to playlists
+[33m342f5cc[m [TST] Imgs
+[33m691d673[m [ADD] New dev branch
+[33mb34e9ef[m [FIX] Hot fix
+[33mb9d8060[m [FIX] Hot fix
+[33m6121343[m [FIX] Hot fix
+[33m1ef29fd[m [ADD] Typerwriter titles
+[33md58ce0e[m [FIX] Hot fix
+[33mf7d9334[m [ADD] Animating typerwriter
+[33m9f3bfdb[m [FIX] Hot fix
+[33m3f17e24[m [ADD] Twitter and LinkedIn accounts on about page
+[33m6cac15e[m [FIX] Removed buggy AJAZ code
+[33m908dd60[m [ADD] MailChimp Subscribe Code AJAX code
+[33m705e67c[m [FIX] Hot fix
+[33m565489b[m [FIX] Hot fix
+[33mc816068[m [FIX] Hot fix
+[33m82ad7c1[m [FIX] Hot fix
+[33m039b37b[m [FIX] Minor bug fixes
+[33m9233d65[m [ADD] Updated What we do section
+[33m6ff70cd[m [FIX] Fixed about us footer
+[33m031f022[m [ADD] Edited contact us page
+[33mf46e9ed[m [FIX] Title
+[33mb138b75[m [FIX] Script
+[33m627a366[m [ADD] Title
+[33mc067f4a[m added description for Art,Passion and Music
+[33mfcbc5ec[m modified
+[33m79a6a31[m Modified nakiso.html
+[33m736ef69[m added social links in footer
+[33m03d0b2d[m [FIX] Removed Playlists section
+[33m36a60f5[m [FIX] Removed Playlists section
+[33mc5b8c9e[m [ADD] Premium test option
+[33m31fec46[m [ADD] Shop section
+[33m1889a7b[m [FIX] Home page
+[33mbeddd03[m [FIX] Individual artist footers
+[33m1be20ba[m [ADD/FIX] Added footer text and fixed Nakiso's short bio
+[33mc6b6412[m modified
+[33m7c7186f[m images/hero_5.webp:Zone.Identifier
+[33m50f453b[m modified push.sh
+[33m66acbe4[m modified:   push.sh
+[33m1a05de3[m updated page and added an image
+[33m0445bfd[m [FIX] Indent
+[33mbbf8bb9[m [FIX] About us nav bar
+[33m607ddad[m [FIX] About page
+[33mc24a852[m [FIX] About us page
+[33m891db13[m [FIX] Footer on The Mendists page
+[33mb883fa8[m [FIX] Nav bar
+[33m1217f81[m [FIX] Home page footer
+[33m5d3c4ba[m [FIX] Nakiso page
+[33m1040220[m [FIX] Track pricing information
+[33m81dbc31[m [FIX] Releases description
+[33mb67ac7a[m [ADD] New release on home page
+[33m01ddcc6[m [FIX] Nav bar
+[33mbd6e35b[m [FIX] Playlist webp image rename
+[33me4ffb57[m [FIX] Renamed playlist pages
+[33m341ea0b[m [FIX] The Mendists favicon
+[33mb92b755[m [FIX] Nocktik page
+[33m5c96e62[m [FIX] Mocktik page favicon
+[33m0ebdbec[m [FIX] Favincon on home page
+[33mfc03428[m [FIX] Title
+[33mf24ddd6[m [FIX] Fixed bug on script
+[33mfa02f97[m [TST] Script test
+[33mc3fb04d[m [FIX] Home title
+[33m6973179[m [FIX] Push script
+[33ma40ef04[m [ADD] Home
+[33m773862a[m [TST] 2
+[33m82e6fba[m [TST] Git creds
+[33m1cca519[m [Fix] Push script
+[33md559732[m ''
+[33m824ee91[m “”
+[33mdbf1734[m [ADD] Push script
+[33m093f7e4[m Renamed releases.html page title
+[33m9c66429[m replaced rOCKS.webp
+[33m214f49a[m replaced still.webp
+[33m741bfb6[m replaced eccentic.wedp
+[33m0815b13[m Set the Releases CTA button to open in a new tab
+[33ma44824b[m Deleted
+[33m5404d6b[m Changed favicon using Only Make Waves Logo
+[33m9999bad[m replaced favicon
+[33mf3a2889[m added a new favicon
+[33m1fb91c9[m Added basic favicon for only make waves
+[33me4196e7[m Merge branch 'main' of https://github.com/onlymakewaves/onlymakewaves.github.io
+[33me086efa[m The New ico file
+[33mbb9bf5c[m uploaded favicon for OnMaWa
+[33m3e44bdc[m [ADD] Linked subscription button to MailChimp
+[33m7d7a282[m [ADD] Broke blog link at the nav bar
+[33m6cf7489[m [ADD] Broke all radio links
+[33md0c6265[m [ADD] Broke all playlist links
+[33m305673e[m [FIX] Indentation
+[33m26c823c[m [FIX] Removed blog section
+[33m746c55c[m [FIX] Merge conflict
+[33m1b9618c[m [ADD] nakiso.html
+[33m7c90416[m hyperlink to home
+[33m2ada7df[m commented out Dicography&Mixes
+[33mdc931be[m removed music,design and testimonials.added email under numbers
+[33m9ed7557[m Added a missing picture
+[33me86fd47[m uploaded pictures
+[33m38b0840[m created heading-7 L9101
+[33m031d663[m Modified whole page using index.html code
+[33ma85c6d3[m Added socials icons and a short artists description on top section
+[33mf08dab2[m Updated the footer and nav bar to match index.html
+[33m7e5c3a4[m Updated Line 125
+[33ma952a2f[m Updated L125
+[33m944f667[m Edited L25
+[33m7517639[m Changed alignment,page experience
+[33m0aae163[m Edited path on L125
+[33m7259e9e[m updated file path L125
+[33m6a9fd9b[m Updated the image L125
+[33m570f030[m Updated header picture
+[33m6509f0f[m Updated line 243
+[33m36d8e46[m Added links to songs
+[33mee121ec[m commented out external releases
+[33m6255b09[m I changed link for heed pt1
+[33m7fec266[m [ADD] Up
+[33m6da5e05[m [ADD] Playlist and Radio pages
+[33m3ffef50[m [ADD] The Mendists page
+[33m5e556d9[m [ADD] Nocktik section
+[33md9ec636[m [ADD] Updates to home page
+[33mcfaa00b[m [ADD] Set env for push
+[33m88c9c18[m [ADD] New pages
+[33mfd3eabf[m [ADD] Update
+[33m7c689c4[m [FIX] Newsletter
+[33me5e403e[m [ADD] Newsletter code
+[33m0ce8322[m [ADD] Individual playlist pages
+[33m46247fd[m [FIX] Minor fix
+[33m92a350c[m [ADD] Playlist homepage fuctionality
+[33m4409383[m [ADD] Radios
+[33m6978bc1[m [ADD] Playlists
+[33m96d7053[m [ADD] New
+[33m7729513[m Initial commit
+[33m653522d[m Initial commit
