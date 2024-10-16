@@ -66,7 +66,34 @@
                 <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
                     <li><a href="../index.html">Home</a></li>
                     <li><a href="music.html">Music</a></li>
-                    <li class="active"><a href="#">Sunsets</a></li>
+                    <li class="has-children active">
+                        <a>Artists</a>
+                        <ul class="dropdown">
+                            <li><a href="nakiso.html">Nakiso</a></li>
+                            <li><a href="nocktik.html">Nocktik</a></li>
+                            <li class="active"><a href="#">The Mendists</a></li>
+                            <!-- <li class="has-children">
+								<a href="#">Menu Two</a>
+								<ul class="dropdown">
+									<li><a href="#">Sub Menu One</a></li>
+									<li><a href="#">Sub Menu Two</a></li>
+									<li><a href="#">Sub Menu Three</a></li>
+								</ul>
+							</li> -->
+                        </ul>
+                    </li>
+                    <li class="has-children">
+                        <a href="#">Playlists</a>
+                        <ul class="dropdown">
+                            <li><a href="thecatalogue.html">The Catalogue</a></li>
+                            <li><a href="dance.html">Dance</a></li>
+                            <li><a href="roks.html">rOKS</a></li>
+                            <li><a href="themendistsplaylist.html">The Mendists Playlist</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="mixes.html">Mixes</a></li>
+                    <li><a href="demo.html">Demo</a></li>
+                    <li><a href="sunsets.html">Sunsets</a></li>
                     <li><a href="shop.html">Shop</a></li>
                     <li><a href="radio.html">Radio</a></li>
                     <li><a href="mission.html">Mission</a></li>
@@ -103,40 +130,84 @@
     </nav>
 
 
-    <div class="hero v-h-full overlay">
-        <!-- <div class="img-bg rellax">
-            <img src="#" alt="Image" class="img-fluid">
-        </div> -->
-        <div class="container">
-            <div class="row align-items-center v-h-full">
+    <style>
+        .typewriter::after {
+            content: "_ ";
+            animation: blinker 0.8s linear infinite;
+        }
 
-                <div class="col-lg-7 col-xxl-6 mx-auto text-center">
-                    <h1 class="heading-2 text-white mb-3" data-aos="fade-up">Sunsets</h1>
-                    <p data-aos="fade-up" data-aos-delay="200" class="text-white lead mb-4">Intimate spaces for music
-                        enthusiasts to enjoy immersive listening experiences,
-                        complemented by the finest coffee offerings. <br />Coming soon.</p>
-                    <!-- <p data-aos="fade-up" data-aos-delay="300"><a
-                            href="https://open.spotify.com/playlist/5dBbRMLZuZUR5TW6R8VDYJ?si=6b981c954d394679"
-                            target="_blank" class="btn btn-primary-outline white me-4 icon-spotify">&nbsp;&nbsp;Listen
-                            Now</a></p> -->
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+    </style>
+    <div class="hero v-h-full overlay ">
+        <!-- <div class="img-bg rellax ">
+            <img class="width 100% " src="../images/hero_2.webp " alt="Image " class="img-fluid ">
+        </div> -->
+        <div class="container ">
+            <div class="row align-items-center v-h-full ">
+                <div class="col-lg-7 col-xxl-6 mx-auto text-center ">
+                    <h1 class="heading-2 text-white mb-5 " data-aos="fade-up ">
+                        <span class="typewriter ">The Mendists</span>
+                    </h1>
+                    <p data-aos="fade-up " data-aos-delay="200 " class="text-white lead mb-4 ">
+                        Share your favorite tracks that align with our weekly themes.</p>
+                    <p data-aos="fade-up " data-aos-delay="300 "><a
+                            href="https://open.spotify.com/playlist/2vPJWP59fABDLSBa14ir9U?si=l0xYXYPyS2WoeFIE-tiLLg"
+                            class="btn btn-primary-outline white me-4 icon-spotify">&nbsp;&nbsp;Click to join
+                        </a>
+                    </p>
                 </div>
 
             </div>
         </div>
 
     </div>
-    <!-- 
-    <div class="section bg-light">
+
+    <!-- DISCOGRAPHY -->
+    <div class="section " id="releases ">
         <div class="container">
             <div class="row">
                 <iframe style="border-radius:12px"
-                    src="https://open.spotify.com/embed/playlist/5dBbRMLZuZUR5TW6R8VDYJ?utm_source=generator"
+                    src="https://open.spotify.com/embed/playlist/2vPJWP59fABDLSBa14ir9U?utm_source=generator&theme=0"
                     width="100%" height="352" frameBorder="0" allowfullscreen=""
                     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                     loading="lazy"></iframe>
             </div>
         </div>
-    </div> -->
+        <div class="section">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-md-6" data-aos="fade-up">
+                        <span class="subheading mb-2 d-inline-block">Fan Space</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-wrap" data-aos="fade-up" data-aos-delay="100">
+                    <div id="testimonial">
+                        <div class="item">
+                            <div class="testmonial">
+                                <span class="quote">&rdquo;</span>
+                                <blockquote>
+                                    <p>I really enjoy the uniqueness of this playlist.</p>
+                                </blockquote>
+                                <div class="d-flex author align-items-center">
+                                    <!-- <div class="pic">
+                                        <img src="images/person_1.jpg" alt="Image" class="img-fluid">
+                                    </div> -->
+                                    <div class="author-name">
+                                        <h2>Ethan Campbell</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="site-footer">
         <div class="container">
@@ -227,21 +298,46 @@
 
 
     <!-- Preloader -->
-    <div id="overlayer"></div>
-    <div class="loader">
-        <div class="spinner-border" role="status">
-            <span class="visually-hidden">Loading...</span>
+    <div id="overlayer "></div>
+    <div class="loader ">
+        <div class="spinner-border " role="status ">
+            <span class="visually-hidden ">Loading...</span>
         </div>
     </div>
 
 
-    <script src="../js/bootstrap.bundle.min.js"></script>
-    <script src="../js/tiny-slider.js"></script>
-    <script src="../js/aos.js"></script>
-    <script src="../js/navbar.js"></script>
-    <script src="../js/glightbox.min.js"></script>
-    <script src="../js/rellax.min.js"></script>
-    <script src="../js/custom.js"></script>
+    <script src="../js/bootstrap.bundle.min.js "></script>
+    <script src="../js/tiny-slider.js "></script>
+    <script src="../js/aos.js "></script>
+    <script src="../js/navbar.js "></script>
+    <script src="../js/glightbox.min.js "></script>
+    <script src="../js/rellax.min.js "></script>
+    <script src="../js/custom.js "></script>
+    <script>
+        let text = [
+            "Sunsets"
+        ];
+        let counter = 0;
+        let index = 0;
+        let currentText = " ";
+        let letter = " ";
+
+        (function type() {
+            if (counter === text.length) {
+                counter = 0;
+            }
+            currentText = text[counter];
+            letter = currentText.slice(0, ++index);
+            document.querySelector(".typewriter ").textContent = letter;
+            if (letter.length === currentText.length) {
+                counter++;
+                index = 0;
+                setTimeout(type, 10000);
+            } else {
+                setTimeout(type, 100);
+            }
+        }());
+    </script>
 </body>
 
 </html>
